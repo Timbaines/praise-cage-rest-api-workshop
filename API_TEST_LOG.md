@@ -16,7 +16,7 @@
   3. Confirmed JSON response was received containing the submitted praise
   4. Verified form submission worked without any client-side JavaScript
 
-  ## Checkpoint 2: Server Rendering
+## Checkpoint 2: Server Rendering
 - **Status**: ✅ Pass
 - **Verification Date**: June 10, 2025
 - **Test Steps**:
@@ -26,16 +26,17 @@
   4. Submitted a new praise and verified redirect back to form page
   5. Confirmed server-side rendering of praise list was functioning correctly
 
- ## Checkpoint 3: Local API Server
+## Checkpoint 3: Local API Server
 - **Status**: ✅ Pass
 - **Verification Date**: June 10, 2025
 - **Test Steps**:
-    1. Created `server.js` with Node.js HTTP server implementation
-    2. Confirmed server successfully serves static HTML form from `/`
-    3. Verified GET `/praises` endpoint returns HTML with current praise list
-    4. Tested POST `/praises` endpoint by submitting new praise via form
-    5. Confirmed in-memory storage is working by viewing updated praise list
-     **Test Again** redirection back to form page after submission
+  1. Created `server.js` with Node.js HTTP server implementation
+  2. Confirmed server successfully serves static HTML form from `/`
+  3. Verified GET `/praises` endpoint returns HTML with current praise list
+  4. Tested POST `/praises` endpoint by submitting new praise via form
+  5. Confirmed in-memory storage is working by viewing updated praise list
+
+- **Test 5d to verify redirection back to form page after submission**
 
 ## Checkpoint 4: Authentication
 - **Status**: ✅ Pass
