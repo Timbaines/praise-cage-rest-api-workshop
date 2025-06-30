@@ -36,8 +36,6 @@
   4. Tested POST `/praises` endpoint by submitting new praise via form
   5. Confirmed in-memory storage is working by viewing updated praise list
 
-- **Test 5d to verify redirection back to form page after submission**
-
 ## Checkpoint 4: Authentication
 - **Status**: ✅ Pass
 - **Verification Date**: June 11, 2025
